@@ -1,0 +1,23 @@
+.m-radio-base {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-radio-button {
+  accent-color: green;
+  cursor: pointer;
+}
+.m-radio-button:hove {
+  accent-color: green;
+}
+.m-radio-base label {
+  cursor: pointer;
+  margin-left: 8px;
+}
+.m-radio-base input {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}

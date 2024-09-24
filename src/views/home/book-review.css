@@ -1,0 +1,196 @@
+.book-review-content {
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  background-color: #ffffff;
+  padding: 12px 24px;
+  hyphens: auto;
+  line-height: 1.5;
+  position: relative;
+}
+.book-review-last-day {
+  position: absolute;
+  right: 24px;
+  top: 12px;
+  font-size: 11px;
+  color: #757373;
+}
+.book-review-user {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+  left: -20px;
+  top: 4px;
+}
+.book-review-user img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.book-review-rate {
+  display: flex;
+  align-items: center;
+}
+.book-review-rate span {
+  margin-right: 4px;
+  color: #767676;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  line-height: 1.15;
+}
+
+.gr-book--large {
+  display: flex;
+  padding: 12px;
+  border: 1px solid #d8d8d8;
+}
+.gr-book--large-img {
+  width: 150px;
+  min-width: 150px;
+  height: 200px;
+}
+.gr-book--large-acction {
+  padding: 0 12px;
+}
+.gr-book--large-title a:hover {
+  text-decoration: underline;
+}
+.gr-icon--authorBadge {
+  background: url(/assets/layout/gr_author_badge.svg) 0 center no-repeat;
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.gr-book--large-author {
+  color: #333333;
+  font-family: 'Merriweather', 'Georgia', serif;
+  display: flex;
+  align-items: center;
+}
+.gr-book--large-author a {
+  margin-left: 4px;
+}
+.gr-book--large-author a:hover {
+  text-decoration: underline;
+}
+.gr-icon--authorBadge {
+  background: url(@/assets/img/gr_author_badge.svg) 0 center no-repeat;
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.option-book {
+  display: flex;
+  align-items: end;
+}
+.option-want-book {
+  width: 150px;
+}
+.review-rate-book {
+  display: flex;
+  margin-left: 12px;
+}
+.review-rate-book span {
+  margin-right: 4px;
+  font-size: 13px;
+  color: #757373;
+  margin-top: 3px;
+}
+.gr-book-footer-acction {
+  font-size: 12px;
+}
+.gr-book-footer-acction span:not(:nth-child(2)):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.book-review-like-information {
+  color: #333333;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 14px;
+  height: 34px;
+  padding: 8px;
+  border-top: 1px solid #d8d8d8;
+  background-color: rgba(216, 216, 216, 0.3);
+}
+
+.book-review-comments-section {
+  background-color: rgba(216, 216, 216, 0.3);
+  border-top: 1px solid #d8d8d8;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.book-review-comment-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.book-review-comment {
+  margin-bottom: 15px;
+  position: relative;
+}
+.comment-timeAgo {
+  position: absolute;
+  font-size: 10px;
+  right: 12px;
+  top: 12px;
+}
+.book-review-comment-user {
+  display: flex;
+  align-items: center;
+}
+.book-review-comment-user img {
+  display: flex;
+  align-items: center;
+}
+
+.book-review-user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.book-review-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-review-user-name {
+  font-weight: bold;
+}
+
+.book-review-comment-time {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.book-review-comment-text {
+  margin-left: 50px;
+}
+.book-review-cmt {
+  display: flex;
+}
+.book-review-comment-input {
+  width: 100%;
+}
+.book-review-comment-input textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  border: none;
+  outline: none;
+}
+.book-review-comment-btn {
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 3px;
+  border: 1px solid #d6d0c4;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+}

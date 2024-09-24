@@ -1,0 +1,98 @@
+.search-type {
+  max-width: 725px;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+.search-type > h4 {
+}
+.search-type-header {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.t-search-input {
+  width: 100%;
+}
+.t-search-b {
+  margin-left: 12px;
+}
+.search-type-rdio {
+  display: flex;
+}
+.tab-search {
+  display: flex;
+  margin-top: 24px;
+  border-bottom: 1px solid #bcb9b9;
+}
+.tab-search-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-right: 4px;
+  transition: 0.5 linear;
+}
+.tab-search-item:hover {
+  border-bottom: 2px solid #363434;
+}
+.tab-search-item.active {
+  border-bottom: 2px solid #363434;
+}
+
+.gr-book--large {
+  display: flex;
+  padding: 12px;
+  border: 1px solid #d8d8d8;
+}
+.gr-book--large-img {
+  width: 110px;
+  min-width: 110px;
+  height: 140px;
+}
+.gr-book--large-acction {
+  padding: 0 12px;
+}
+.gr-book--large-title a:hover {
+  text-decoration: underline;
+}
+.gr-icon--authorBadge {
+  background: url(/assets/layout/gr_author_badge.svg) 0 center no-repeat;
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.gr-book--large-author {
+  color: #333333;
+  font-family: 'Merriweather', 'Georgia', serif;
+  display: flex;
+  align-items: center;
+}
+.gr-book--large-author a {
+  margin-left: 4px;
+}
+.gr-book--large-author a:hover {
+  text-decoration: underline;
+}
+.gr-icon--authorBadge {
+  background: url(@/assets/img/gr_author_badge.svg) 0 center no-repeat;
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.option-book {
+  display: flex;
+  align-items: end;
+}
+.option-want-book {
+  width: 150px;
+}
+.review-rate-book {
+  display: flex;
+  margin-left: 12px;
+}
+.review-rate-book span {
+  margin-right: 4px;
+  font-size: 13px;
+  color: #757373;
+  margin-top: 3px;
+}

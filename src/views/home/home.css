@@ -1,0 +1,131 @@
+.home {
+  background-color: rgba(244, 241, 234, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+.home-left {
+  flex-basis: 25%;
+  padding-right: 40px;
+}
+.home-content {
+  flex-basis: 50%;
+}
+.home-right {
+  flex-basis: 25%;
+  padding-left: 24px;
+}
+.add-book {
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  padding: 0;
+  margin-bottom: 16px;
+}
+.add-review {
+  display: flex;
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  align-items: center;
+}
+.add-review div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.add-review div img {
+  border-radius: 50%;
+}
+.add-review-btn {
+  min-width: max-content;
+  width: 100%;
+  height: 34px;
+  text-align: left;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding-left: 12px;
+  margin-left: 12px;
+  cursor: pointer;
+  color: #504e4e;
+}
+.block-box-left:not(:nth-last-child(1)) {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 16px;
+}
+.block-box-left h3 {
+  color: #333333;
+  font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 12px 0;
+  text-transform: uppercase;
+}
+.empty-book-note {
+  display: flex;
+  align-items: center;
+}
+.empty-book-note img.readding {
+  width: 50px !important;
+  height: 70px;
+}
+.empty-book-note img.want-book {
+  width: 60px !important;
+  height: 70px;
+}
+.empty-book-note span {
+  margin-left: 12px;
+}
+.my-book-statitic-item {
+  font-size: 12px;
+  padding: 4px 0;
+}
+.my-book-statitic-item:not(:first-child):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.show-all {
+  font-size: 12px !important;
+  cursor: pointer;
+}
+.not-empty-book .show-all:hover {
+  text-decoration: underline;
+}
+.list-want-book {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các phần tử xuống dòng khi đầy hàng */
+}
+.list-want-book-item {
+  flex: 0 0 33.33%;
+  height: 120px;
+  padding: 4px;
+}
+.right-connect {
+  margin-bottom: 12px;
+}
+.right-connect ul {
+  display: flex;
+  margin-top: 12px;
+}
+.right-connect ul li {
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #787676;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  padding-left: 9px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+.home-right span {
+  font-size: 10px;
+  color: #767272;
+}

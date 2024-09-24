@@ -1,0 +1,16 @@
+.header {
+  height: var(--height-header);
+  padding: 0px var(--padding-beside);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color-header);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+.logo {
+  max-width: 20%;
+}
